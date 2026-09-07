@@ -1,5 +1,12 @@
 # mcp-tosca
 
+> **Nota:** si usas Tosca 2026.1 (patch 1+), Tricentis ya incluye un
+> [servidor MCP oficial integrado en Tosca Commander](../docs/tosca-official-mcp-server.md),
+> sin necesidad de instalar nada. Úsalo primero; este paquete es una
+> alternativa para disparar ExecutionLists por CLI desde entornos sin Tosca
+> Commander abierto (CI/CD headless) o versiones de Tosca anteriores al
+> patch con soporte MCP.
+
 Servidor MCP (Model Context Protocol) que expone herramientas para disparar
 ejecuciones de Tricentis Tosca Commander/TBox mediante `TestExecutionCli`, el
 CLI oficial que Tosca instala para integraciones de CI/CD.
